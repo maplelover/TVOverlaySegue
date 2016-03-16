@@ -11,3 +11,6 @@ TVOverlaySegue浮层式弹出
 为保证通用性，主视图只提供了简单的动画形式，具体扩展可以在UIViewController内部实现。
 
 可在Storyboard中直接拖拽来创建连接，除了动画形式，其行为与Present Modally完全一致，目标视图可通过dismissViewControllerAnimated关闭
+
+支持版本: iOS7+
+语言: Objective-C
