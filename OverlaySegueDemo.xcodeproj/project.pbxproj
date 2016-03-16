@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		953064231C92CDF400EB7BF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 953064221C92CDF400EB7BF1 /* main.m */; };
+		953064261C92CDF400EB7BF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 953064251C92CDF400EB7BF1 /* AppDelegate.m */; };
+		953064291C92CDF400EB7BF1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 953064281C92CDF400EB7BF1 /* ViewController.m */; };
+		9530642C1C92CDF400EB7BF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9530642A1C92CDF400EB7BF1 /* Main.storyboard */; };
+		9530642E1C92CDF400EB7BF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9530642D1C92CDF400EB7BF1 /* Assets.xcassets */; };
+		953064311C92CDF400EB7BF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9530642F1C92CDF400EB7BF1 /* LaunchScreen.storyboard */; };
+		953064771C96C0A600EB7BF1 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 953064761C96C0A600EB7BF1 /* MenuViewController.m */; };
+		9530647D1C96C8AB00EB7BF1 /* TVAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9530647C1C96C8AB00EB7BF1 /* TVAlertViewController.m */; };
+		953064991C99430200EB7BF1 /* TVActionSheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 953064981C99430200EB7BF1 /* TVActionSheetViewController.m */; };
+		953064A71C99641E00EB7BF1 /* TVOverlayAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 953064A01C99641E00EB7BF1 /* TVOverlayAnimationController.m */; };
+		953064A81C99641E00EB7BF1 /* TVOverlaySegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 953064A41C99641E00EB7BF1 /* TVOverlaySegue.m */; };
+		953064A91C99641E00EB7BF1 /* UIViewController+TVOverlaySegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 953064A61C99641E00EB7BF1 /* UIViewController+TVOverlaySegue.m */; };
+		F540BA591C99B659000A818B /* PartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F540BA581C99B659000A818B /* PartViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9530641E1C92CDF400EB7BF1 /* OverlaySegueDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OverlaySegueDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		953064221C92CDF400EB7BF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		953064241C92CDF400EB7BF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		953064251C92CDF400EB7BF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		953064271C92CDF400EB7BF1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		953064281C92CDF400EB7BF1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9530642B1C92CDF400EB7BF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9530642D1C92CDF400EB7BF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		953064301C92CDF400EB7BF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		953064321C92CDF400EB7BF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		953064751C96C0A600EB7BF1 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		953064761C96C0A600EB7BF1 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		9530647B1C96C8AB00EB7BF1 /* TVAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVAlertViewController.h; sourceTree = "<group>"; };
+		9530647C1C96C8AB00EB7BF1 /* TVAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVAlertViewController.m; sourceTree = "<group>"; };
+		953064971C99430200EB7BF1 /* TVActionSheetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVActionSheetViewController.h; sourceTree = "<group>"; };
+		953064981C99430200EB7BF1 /* TVActionSheetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVActionSheetViewController.m; sourceTree = "<group>"; };
+		9530649F1C99641E00EB7BF1 /* TVOverlayAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVOverlayAnimationController.h; sourceTree = "<group>"; };
+		953064A01C99641E00EB7BF1 /* TVOverlayAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVOverlayAnimationController.m; sourceTree = "<group>"; };
+		953064A11C99641E00EB7BF1 /* TVOverlayAnimationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVOverlayAnimationDelegate.h; sourceTree = "<group>"; };
+		953064A21C99641E00EB7BF1 /* TVOverlayDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVOverlayDefines.h; sourceTree = "<group>"; };
+		953064A31C99641E00EB7BF1 /* TVOverlaySegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVOverlaySegue.h; sourceTree = "<group>"; };
+		953064A41C99641E00EB7BF1 /* TVOverlaySegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVOverlaySegue.m; sourceTree = "<group>"; };
+		953064A51C99641E00EB7BF1 /* UIViewController+TVOverlaySegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TVOverlaySegue.h"; sourceTree = "<group>"; };
+		953064A61C99641E00EB7BF1 /* UIViewController+TVOverlaySegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TVOverlaySegue.m"; sourceTree = "<group>"; };
+		F540BA571C99B659000A818B /* PartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PartViewController.h; sourceTree = "<group>"; };
+		F540BA581C99B659000A818B /* PartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PartViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9530641B1C92CDF400EB7BF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		953064151C92CDF400EB7BF1 = {
+			isa = PBXGroup;
+			children = (
+				953064201C92CDF400EB7BF1 /* OverlaySegueDemo */,
+				9530641F1C92CDF400EB7BF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9530641F1C92CDF400EB7BF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9530641E1C92CDF400EB7BF1 /* OverlaySegueDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		953064201C92CDF400EB7BF1 /* OverlaySegueDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9530649E1C99641E00EB7BF1 /* TVOverlaySegue */,
+				9530649A1C994B8000EB7BF1 /* Test */,
+				953064271C92CDF400EB7BF1 /* ViewController.h */,
+				953064281C92CDF400EB7BF1 /* ViewController.m */,
+				9530642A1C92CDF400EB7BF1 /* Main.storyboard */,
+				953064211C92CDF400EB7BF1 /* Supporting Files */,
+			);
+			path = OverlaySegueDemo;
+			sourceTree = "<group>";
+		};
+		953064211C92CDF400EB7BF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9530642D1C92CDF400EB7BF1 /* Assets.xcassets */,
+				9530642F1C92CDF400EB7BF1 /* LaunchScreen.storyboard */,
+				953064321C92CDF400EB7BF1 /* Info.plist */,
+				953064241C92CDF400EB7BF1 /* AppDelegate.h */,
+				953064251C92CDF400EB7BF1 /* AppDelegate.m */,
+				953064221C92CDF400EB7BF1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9530649A1C994B8000EB7BF1 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				953064751C96C0A600EB7BF1 /* MenuViewController.h */,
+				953064761C96C0A600EB7BF1 /* MenuViewController.m */,
+				9530647B1C96C8AB00EB7BF1 /* TVAlertViewController.h */,
+				9530647C1C96C8AB00EB7BF1 /* TVAlertViewController.m */,
+				953064971C99430200EB7BF1 /* TVActionSheetViewController.h */,
+				953064981C99430200EB7BF1 /* TVActionSheetViewController.m */,
+				F540BA571C99B659000A818B /* PartViewController.h */,
+				F540BA581C99B659000A818B /* PartViewController.m */,
+			);
+			name = Test;
+			sourceTree = "<group>";
+		};
+		9530649E1C99641E00EB7BF1 /* TVOverlaySegue */ = {
+			isa = PBXGroup;
+			children = (
+				953064A31C99641E00EB7BF1 /* TVOverlaySegue.h */,
+				953064A41C99641E00EB7BF1 /* TVOverlaySegue.m */,
+				953064A21C99641E00EB7BF1 /* TVOverlayDefines.h */,
+				953064A11C99641E00EB7BF1 /* TVOverlayAnimationDelegate.h */,
+				9530649F1C99641E00EB7BF1 /* TVOverlayAnimationController.h */,
+				953064A01C99641E00EB7BF1 /* TVOverlayAnimationController.m */,
+				953064A51C99641E00EB7BF1 /* UIViewController+TVOverlaySegue.h */,
+				953064A61C99641E00EB7BF1 /* UIViewController+TVOverlaySegue.m */,
+			);
+			path = TVOverlaySegue;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9530641D1C92CDF400EB7BF1 /* OverlaySegueDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 953064351C92CDF400EB7BF1 /* Build configuration list for PBXNativeTarget "OverlaySegueDemo" */;
+			buildPhases = (
+				9530641A1C92CDF400EB7BF1 /* Sources */,
+				9530641B1C92CDF400EB7BF1 /* Frameworks */,
+				9530641C1C92CDF400EB7BF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OverlaySegueDemo;
+			productName = OverlaySegueDemo;
+			productReference = 9530641E1C92CDF400EB7BF1 /* OverlaySegueDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		953064161C92CDF400EB7BF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Maple;
+				TargetAttributes = {
+					9530641D1C92CDF400EB7BF1 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 953064191C92CDF400EB7BF1 /* Build configuration list for PBXProject "OverlaySegueDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 953064151C92CDF400EB7BF1;
+			productRefGroup = 9530641F1C92CDF400EB7BF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9530641D1C92CDF400EB7BF1 /* OverlaySegueDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9530641C1C92CDF400EB7BF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953064311C92CDF400EB7BF1 /* LaunchScreen.storyboard in Resources */,
+				9530642E1C92CDF400EB7BF1 /* Assets.xcassets in Resources */,
+				9530642C1C92CDF400EB7BF1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9530641A1C92CDF400EB7BF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953064A81C99641E00EB7BF1 /* TVOverlaySegue.m in Sources */,
+				953064A91C99641E00EB7BF1 /* UIViewController+TVOverlaySegue.m in Sources */,
+				F540BA591C99B659000A818B /* PartViewController.m in Sources */,
+				953064991C99430200EB7BF1 /* TVActionSheetViewController.m in Sources */,
+				953064291C92CDF400EB7BF1 /* ViewController.m in Sources */,
+				953064261C92CDF400EB7BF1 /* AppDelegate.m in Sources */,
+				953064A71C99641E00EB7BF1 /* TVOverlayAnimationController.m in Sources */,
+				953064231C92CDF400EB7BF1 /* main.m in Sources */,
+				953064771C96C0A600EB7BF1 /* MenuViewController.m in Sources */,
+				9530647D1C96C8AB00EB7BF1 /* TVAlertViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9530642A1C92CDF400EB7BF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9530642B1C92CDF400EB7BF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9530642F1C92CDF400EB7BF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				953064301C92CDF400EB7BF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		953064331C92CDF400EB7BF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		953064341C92CDF400EB7BF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		953064361C92CDF400EB7BF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = OverlaySegueDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maple.OverlaySegueDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		953064371C92CDF400EB7BF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = OverlaySegueDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maple.OverlaySegueDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		953064191C92CDF400EB7BF1 /* Build configuration list for PBXProject "OverlaySegueDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				953064331C92CDF400EB7BF1 /* Debug */,
+				953064341C92CDF400EB7BF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		953064351C92CDF400EB7BF1 /* Build configuration list for PBXNativeTarget "OverlaySegueDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				953064361C92CDF400EB7BF1 /* Debug */,
+				953064371C92CDF400EB7BF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 953064161C92CDF400EB7BF1 /* Project object */;
+}
